@@ -1,0 +1,66 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.header h1 {
+    color: #f39c12;
+    font-size: 2.5em;
+}
+
+/* Employees Section */
+.employees-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.employees-section h2 {
+    color: #f39c12;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.employees-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.employees-table th, .employees-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+.employees-table th {
+    background-color: #f39c12;
+    color: #000;
+}
+
+.employees-table tr:nth-child(even) {
+    background-color: #333;
+}
+
+.employees-table tr:nth-child(odd) {
+    background-color: #222;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    margin-top: 40px;
+}

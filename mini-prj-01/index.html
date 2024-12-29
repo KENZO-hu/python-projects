@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-prj</title>
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>welcome to my page</h1>
+    </header>
+    <section class="employees-section">
+        <h2>meet our team</h2>
+        <table class="employees-table">
+            <thead>
+                <tr><th>name</th>
+                <th>role</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for employee in employees %}
+                <tr>
+                <td>{{employee.name}}</td>
+                <td>{{employee.role}}</td>
+                <td>{{employee.email}}</td>
+                </tr>
+                {% end for %}
+            </tbody>
+        </table>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Royal fitness.All rights reserved</p>
+    </footer>
+</body>
+</html>

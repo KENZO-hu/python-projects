@@ -1,0 +1,4 @@
+Mathématiques: 15
+Physique: 14
+Chimie: 16
+Informatique: 18
